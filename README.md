@@ -1,7 +1,7 @@
 # 📊 SPY Sector Rotation Dashboard for Google Sheets 🚀
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-&lt;a href='https://ko-fi.com/U7U41CZ5QZ' target='_blank'&gt;&lt;img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /&gt;&lt;/a&gt;
+<a href='https://ko-fi.com/U7U41CZ5QZ' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a> [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 This Google Apps Script creates a dynamic dashboard in your Google Sheet to track the SPDR S&P 500 ETF (SPY) and its 11 largest sector ETFs:
 SPY / XLK / XLF / XLV / XLY / XLC / XLI / XLP / XLE / XLU / XLRE / XLB
@@ -59,39 +59,39 @@ Follow these steps to create your own SPY Sector Dashboard:
 
 2.  **Open Apps Script Editor:**
     *   In your new spreadsheet, go to `Extensions` > `Apps Script`.
-    *   ![Extensions Menu](images/extensions.png)
+    ![Extensions Menu](images/extensions.png)
 
 3.  **Paste the Script Code:**
-    *   Delete any default code (e.g., `function myFunction() {}`) in the [`Code.gs`](Code.gs:3) file.
+    *   Delete any default code (e.g., `function myFunction() {}`) in editor's `Code.gs` script file.
     *   Copy the entire content of the [`Code.gs`](Code.gs) file from this repository.
-    *   Paste the copied code into the Apps Script editor's [`Code.gs`](Code.gs:3) file.
+    *   Paste the copied code into the Apps Script editor's `Code.gs` file.
     *   ![Paste Code](images/paste.png)
 
 4.  **Save and Select Function:**
     *   Click the "Save project" icon (💾).
-    *   ![Save Script](images/save.png)
+    ![Save Script](images/save.png)
     *   From the function dropdown menu (next to the "Debug" and "Run" buttons), select `createCompleteDashboardAndSetupTrigger`.
-    *   ![Select Function](images/select.png)
+    ![Select Function](images/select.png)
 
 5.  **Run and Authorize (First Time):**
     *   Click the "Run" button (▶️).
-    *   ![Run Script](images/run.png)
+    ![Run Script](images/run.png)
     *   You'll be prompted for authorization. Click "Review permissions."
-    *   ![Review Permissions 1](images/review1.png)
+    ![Review Permissions 1](images/review1.png)
     *   Choose the Google account you want to use for this script.
-    *   ![Select Account](images/review2.png)
+    ![Select Account](images/review2.png)
 
 6.  **Handle "Google hasn't verified this app" Warning:**
     *   You'll likely see a warning screen. This is normal for scripts you've written yourself or copied from a source Google hasn't reviewed.
     *   Click "Advanced" (or "Show advanced options").
-    *   ![Advanced Warning](images/review3.png)
+    ![Advanced Warning](images/review3.png)
     *   Click "Go to &lt;Your Project Name&gt; (unsafe)" (the project name might be "Untitled project" if you haven't named it).
-    *   ![Go to Project](images/review4.png)
+    ![Go to Project](images/review4.png)
     *   Review the permissions the script needs (as explained above) and click "Allow."
 
 7.  **Final Run & Dashboard Creation:**
     *   The script `createCompleteDashboardAndSetupTrigger` should now execute. If it doesn't run automatically after authorization, click the "Run" button again.
-    *   ![Rerun Script if Needed](images/rerun.png)
+    ![Rerun Script if Needed](images/rerun.png)
     *   The script will take a minute or two to fetch data and build the dashboard. You'll see a "Dashboard setup complete" toast message in the Google Sheet when it's done.
     *   Your dashboard is now ready! You can close the Apps Script editor. The sheet will automatically update daily.
 
