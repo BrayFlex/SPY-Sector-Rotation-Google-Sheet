@@ -65,7 +65,7 @@ Follow these steps to create your own SPY Sector Dashboard:
     *   Delete any default code (e.g., `function myFunction() {}`) in editor's `Code.gs` script file.
     *   Copy the entire content of the [`Code.gs`](Code.gs) file from this repository.
     *   Paste the copied code into the Apps Script editor's `Code.gs` file.
-    *   ![Paste Code](images/paste.png)
+    ![Paste Code](images/paste.png)
 
 4.  **Save and Select Function:**
     *   Click the "Save project" icon (💾).
